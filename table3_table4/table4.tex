@@ -1,0 +1,19 @@
+\begin{table*}[t]
+    \centering
+    \tiny
+    \setlength{\tabcolsep}{2.8mm}
+    \begin{tabular}{lccccccc}
+        \toprule
+        \textbf{Connection Topology}
+        & \textbf{Common Claim} & \textbf{CounterFact} & \textbf{Company}
+        & \textbf{TriviaQA} & \textbf{MuSiQue} & \textbf{TruthfulQA} & \textbf{Avg} \\
+        \midrule
+        Original & \textbf{92.40} & \textbf{78.20} & \textbf{89.20} & \textbf{76.80} & \textbf{77.80} & \textbf{91.20} & \textbf{84.27} \\
+        Adjacent Grid & 79.00 & 43.80 & 64.00 & 52.20 & 55.80 & 56.80 & 58.60 \\
+        Original Quadratic & 91.80 & 64.00 & 80.00 & 71.60 & 75.00 & 88.60 & 78.50 \\
+        Fully Quadratic & 56.20 & 38.80 & 43.40 & 49.80 & 48.60 & 50.00 & 47.80 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Comparison of different graph topologies in latent debate. Consistency scores (\%) measure agreement with the original LLM predictions. The best results are highlighted in bold.}
+    \label{tab:connection_topology}
+\end{table*}

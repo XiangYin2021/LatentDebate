@@ -1,0 +1,41 @@
+{
+  "protocol_version": "table1-finalized-2026-10-29",
+  "random_seed": 0,
+  "reset_random_seed_per_input_file": true,
+  "samples_per_dataset": 500,
+  "selected_layers": 31,
+  "token_weight_temperature": 0.05,
+  "decimal_places": 1,
+  "llm_answer_rule": "strip_then_startswith_capital_T_else_false",
+  "noncanonical_answer_handling": "preserve_legacy_mapping_and_report",
+  "methods": [
+    "Random",
+    "Average",
+    "Majority Voting",
+    "Latent Debate",
+    "Latent Debate -- w/o token weight",
+    "Latent Debate -- with quadratic connection"
+  ],
+  "datasets": [
+    {"name": "common_claim", "tokens": 6},
+    {"name": "counterfact", "tokens": 6},
+    {"name": "company", "tokens": 6},
+    {"name": "triviaqa", "tokens": 5},
+    {"name": "musique", "tokens": 5},
+    {"name": "truthfulqa", "tokens": 5}
+  ],
+  "models": [
+    {
+      "name": "Llama-8B",
+      "files": ["common_claim_prob.jsonl", "counterfact_prob.jsonl", "company_prob.jsonl", "triviaqa_prob.jsonl", "musique_prob.jsonl", "truthfulqa_prob.jsonl"]
+    },
+    {
+      "name": "Mistral-7B",
+      "files": ["common_claim_prob_mistral.jsonl", "counterfact_prob_mistral.jsonl", "company_prob_mistral.jsonl", "triviaqa_prob_mistral_2.jsonl", "musique_prob_mistral_2.jsonl", "truthfulqa_prob_mistral_2.jsonl"]
+    },
+    {
+      "name": "Llama-13B",
+      "files": ["common_claim_prob_llama13b.jsonl", "counterfact_prob_llama13b.jsonl", "company_prob_llama13b.jsonl", "triviaqa_prob_llama13b_2.jsonl", "musique_prob_llama13b_2.jsonl", "truthfulqa_prob_llama13b_2.jsonl"]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+\begin{table}[tp]
+    \centering
+    \tiny
+    \setlength{\tabcolsep}{1.1mm}{
+        \begin{threeparttable}
+            \begin{tabular}{lccccccc}
+                \toprule
+                & \textbf{\underline{\texttt{common\_claim}}} & \textbf{\underline{\texttt{counterfact}}} & \textbf{\underline{\texttt{company}}} & \textbf{\underline{\texttt{TriviaQA}}} & \textbf{\underline{\texttt{MuSiQue}}} & \textbf{\underline{\texttt{TruthfulQA}}} & \textbf{\underline{\texttt{Avg}}}\\
+                \midrule
+                Top Right Argument &0.73&0.49&0.69&0.59&0.60&0.36&0.58\\
+                \rowcolor{gray!10}Latent Debate Detector &0.82&0.72&0.88&0.93&0.76&0.60&0.79\\
+                \bottomrule
+            \end{tabular}
+            \caption{AUROC for hallucination detection. We compare our latent debate detector with a single-argument baseline.}
+            \label{tab:single_arg_hallucination}
+        \end{threeparttable}
+    }
+\end{table}
+

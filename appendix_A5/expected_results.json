@@ -1,0 +1,16 @@
+{
+  "summary": [
+    {"method": "SAPLMA", "dataset": "counterfact", "mean_auroc": 0.6790577342047929, "sample_std_auroc": 0.020421205196424517},
+    {"method": "SAPLMA", "dataset": "company", "mean_auroc": 0.8013068972371297, "sample_std_auroc": 0.017471512373371},
+    {"method": "SAPLMA", "dataset": "triviaqa", "mean_auroc": 0.8020760233918128, "sample_std_auroc": 0.008496252923351592},
+    {"method": "SAPLMA", "dataset": "musique", "mean_auroc": 0.6721261107959916, "sample_std_auroc": 0.02802143277551599},
+    {"method": "SAPLMA", "dataset": "truthfulqa", "mean_auroc": 0.49017713365539456, "sample_std_auroc": 0.011316040582800783},
+    {"method": "SAPLMA", "dataset": "Avg", "mean_auroc": 0.6889487798570245, "sample_std_auroc": 0.006551521839094998},
+    {"method": "Latent Debate Detector", "dataset": "counterfact", "mean_auroc": 0.809368191721133, "sample_std_auroc": 0.0018806137414124837},
+    {"method": "Latent Debate Detector", "dataset": "company", "mean_auroc": 0.8526013714967204, "sample_std_auroc": 0.002338458473770311},
+    {"method": "Latent Debate Detector", "dataset": "triviaqa", "mean_auroc": 0.8928591855410661, "sample_std_auroc": 0.009954759967194861},
+    {"method": "Latent Debate Detector", "dataset": "musique", "mean_auroc": 0.6801971072036301, "sample_std_auroc": 0.010697492463155062},
+    {"method": "Latent Debate Detector", "dataset": "truthfulqa", "mean_auroc": 0.5280515297906603, "sample_std_auroc": 0.003347422905270782},
+    {"method": "Latent Debate Detector", "dataset": "Avg", "mean_auroc": 0.752615477150642, "sample_std_auroc": 0.004361182179141697}
+  ]
+}

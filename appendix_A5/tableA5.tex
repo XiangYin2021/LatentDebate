@@ -1,0 +1,34 @@
+\begin{table*}[t]
+    \centering
+    \tiny
+    \setlength{\tabcolsep}{2.5mm}
+    \begin{tabular}{lcccccc}
+        \toprule
+        \textbf{Method}
+        & \textbf{CounterFact}
+        & \textbf{Company}
+        & \textbf{TriviaQA}
+        & \textbf{MuSiQue}
+        & \textbf{TruthfulQA}
+        & \textbf{Avg} \\
+        \midrule
+        SAPLMA
+        & $67.91 \pm 2.04$
+        & $80.13 \pm 1.75$
+        & $80.21 \pm 0.85$
+        & $67.21 \pm 2.80$
+        & $49.02 \pm 1.13$
+        & 68.89 \\
+        \rowcolor{gray!10}
+        Latent Debate Detector
+        & $\mathbf{80.94 \pm 0.19}$
+        & $\mathbf{85.26 \pm 0.23}$
+        & $\mathbf{89.29 \pm 1.00}$
+        & $\mathbf{68.02 \pm 1.07}$
+        & $\mathbf{52.81 \pm 0.33}$
+        & \textbf{75.26} \\
+        \bottomrule
+    \end{tabular}
+    \caption{Cross-task hallucination detection performance (AUROC). Detectors are trained on Common Claim and evaluated on five other datasets without retraining.}
+    \label{tab:cross_task}
+\end{table*}

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "probability/common_claim_prob.jsonl": {"bytes": 7442541, "sha256": "ee7d4870a7020d490cbe03d9dc9d67a47ee6f6f412dd862716ae6c69545c6a3d"},
+    "probability/company_prob.jsonl": {"bytes": 7004774, "sha256": "fa52eec8555d651cb5f72622303b82755d8966ca0b0e11c84545935abc21d0a2"},
+    "probability/counterfact_prob.jsonl": {"bytes": 6052090, "sha256": "9c7c17dc8c2ff169313eb58c8de7ca6bf2904af88a48e1fdda7ff602b6429346"},
+    "probability/musique_prob.jsonl": {"bytes": 9882877, "sha256": "9b981e5f6d136272dd4fc3bdc10caa55160c3f1725e7a0e51db9b8efa3dde763"},
+    "table3_logit/triviaqa_prob.jsonl": {"bytes": 9190967, "sha256": "0ced9091afd145bdcca11549a9dad58d64c8c87c8b9aeed1a663f6e69394b97b"},
+    "probability/truthfulqa_prob.jsonl": {"bytes": 10236926, "sha256": "2965bc1d2ef07eab6541ea613f01f862856bd3832685a5e2a9379852070784a0"},
+    "tuned/common_claim_prob.jsonl": {"bytes": 15956696, "sha256": "cc83c0609d23ed6aa68fc6e12a174c0dfc18740070e265d8f001da5e4fb51e39"},
+    "tuned/company_prob.jsonl": {"bytes": 14816511, "sha256": "31e85179e277c24ee698745d98a05ff1a6f27f4a0f50e08322ca58e8fc5a846a"},
+    "tuned/counterfact_prob.jsonl": {"bytes": 12032735, "sha256": "12b000c6862ef48a1730efca714df3b266c6082f89b27aaa5f5c01f93b11f303"}
+  }
+}

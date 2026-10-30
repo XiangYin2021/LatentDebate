@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "datasets": ["common_claim", "counterfact", "company", "triviaqa", "musique", "truthfulqa"],
+  "train_dataset": "common_claim",
+  "target_datasets": ["counterfact", "company", "triviaqa", "musique", "truthfulqa"],
+  "train_rows": [250, 500],
+  "test_rows": [0, 250],
+  "seeds": [42, 43, 44],
+  "summary_standard_deviation_ddof": 1,
+  "latent_debate_detector": {
+    "layers": 31,
+    "tokens": 5,
+    "token_temperature": 0.05,
+    "feature_indices": [4, 5, 6, 7, 8, 9, 10, 11, 13, 14],
+    "feature_description": "middle and upper AvgInit/VarInit/AvgFin/VarFin/NumAtk (10 total)",
+    "classifier": {
+      "objective": "binary:logistic",
+      "n_estimators": 100,
+      "max_depth": 2,
+      "learning_rate": 0.03,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "min_child_weight": 1,
+      "reg_lambda": 1,
+      "reg_alpha": 0,
+      "eval_metric": "logloss",
+      "tree_method": "hist",
+      "device": "cpu",
+      "n_jobs": 2
+    }
+  },
+  "saplma": {
+    "architecture": [4096, 256, 128, 64, 1],
+    "activation": "ReLU",
+    "output": "Sigmoid",
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "batch_size": 32,
+    "epochs": 5,
+    "device": "cpu"
+  }
+}

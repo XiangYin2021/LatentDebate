@@ -1,0 +1,131 @@
+{
+  "protocol_version": "table1-finalized-2026-10-29",
+  "files": {
+    "common_claim_prob.jsonl": {
+      "sha256": "ee7d4870a7020d490cbe03d9dc9d67a47ee6f6f412dd862716ae6c69545c6a3d",
+      "samples": 500,
+      "model": "Llama-8B",
+      "dataset": "common_claim",
+      "tokens": 6
+    },
+    "counterfact_prob.jsonl": {
+      "sha256": "9c7c17dc8c2ff169313eb58c8de7ca6bf2904af88a48e1fdda7ff602b6429346",
+      "samples": 500,
+      "model": "Llama-8B",
+      "dataset": "counterfact",
+      "tokens": 6
+    },
+    "company_prob.jsonl": {
+      "sha256": "fa52eec8555d651cb5f72622303b82755d8966ca0b0e11c84545935abc21d0a2",
+      "samples": 500,
+      "model": "Llama-8B",
+      "dataset": "company",
+      "tokens": 6
+    },
+    "triviaqa_prob.jsonl": {
+      "sha256": "b99be2195e0d5ea73580b28af049c6d486f2bf3ccbfe0c2f9d683957934bee4e",
+      "samples": 500,
+      "model": "Llama-8B",
+      "dataset": "triviaqa",
+      "tokens": 5
+    },
+    "musique_prob.jsonl": {
+      "sha256": "9b981e5f6d136272dd4fc3bdc10caa55160c3f1725e7a0e51db9b8efa3dde763",
+      "samples": 500,
+      "model": "Llama-8B",
+      "dataset": "musique",
+      "tokens": 5
+    },
+    "truthfulqa_prob.jsonl": {
+      "sha256": "2965bc1d2ef07eab6541ea613f01f862856bd3832685a5e2a9379852070784a0",
+      "samples": 500,
+      "model": "Llama-8B",
+      "dataset": "truthfulqa",
+      "tokens": 5
+    },
+    "common_claim_prob_mistral.jsonl": {
+      "sha256": "739864913c342258516175ef0032a8f2909db3d4d0d0c52b99ce55ca49196e3c",
+      "samples": 500,
+      "model": "Mistral-7B",
+      "dataset": "common_claim",
+      "tokens": 6
+    },
+    "counterfact_prob_mistral.jsonl": {
+      "sha256": "8e6f88572de93088da077e2b18bd0b45748a882829c9e683718eb4184eb60f85",
+      "samples": 500,
+      "model": "Mistral-7B",
+      "dataset": "counterfact",
+      "tokens": 6
+    },
+    "company_prob_mistral.jsonl": {
+      "sha256": "5ed22a42f5eb3fbf3d8955621f09acff673355e57f44afc57356c3787e2f3f46",
+      "samples": 500,
+      "model": "Mistral-7B",
+      "dataset": "company",
+      "tokens": 6
+    },
+    "triviaqa_prob_mistral_2.jsonl": {
+      "sha256": "9ac92046137ffdd8f09206743edee4b3f2fef41b31e5a4550069659a4e33b8da",
+      "samples": 500,
+      "model": "Mistral-7B",
+      "dataset": "triviaqa",
+      "tokens": 5
+    },
+    "musique_prob_mistral_2.jsonl": {
+      "sha256": "9bb912f74b849cf457da0678150dbb21bbec4919c6f98359b0f12e998cd9d4af",
+      "samples": 500,
+      "model": "Mistral-7B",
+      "dataset": "musique",
+      "tokens": 5
+    },
+    "truthfulqa_prob_mistral_2.jsonl": {
+      "sha256": "cabaf4f9f1699374b37122b1e427464a086906bdcc255a5a0a2a90280ae707e0",
+      "samples": 500,
+      "model": "Mistral-7B",
+      "dataset": "truthfulqa",
+      "tokens": 5
+    },
+    "common_claim_prob_llama13b.jsonl": {
+      "sha256": "f1106cf9122d4f4059b70bd3e61b562c55d5eb881f1e2b68791c58b8e57d301f",
+      "samples": 500,
+      "model": "Llama-13B",
+      "dataset": "common_claim",
+      "tokens": 6
+    },
+    "counterfact_prob_llama13b.jsonl": {
+      "sha256": "9f0c4bd4f8459694261502c730e347f1d97c2baf0a82c3e55ccfed854cd61d86",
+      "samples": 500,
+      "model": "Llama-13B",
+      "dataset": "counterfact",
+      "tokens": 6
+    },
+    "company_prob_llama13b.jsonl": {
+      "sha256": "77b432266ba9d98bddd25b676f6db8ff64e2a474452eef63ebc63575949b5f13",
+      "samples": 500,
+      "model": "Llama-13B",
+      "dataset": "company",
+      "tokens": 6
+    },
+    "triviaqa_prob_llama13b_2.jsonl": {
+      "sha256": "e571c6ae89beebd0dbdda0e759ae25db31741b0ef131e97e373b07f2c462541a",
+      "samples": 500,
+      "model": "Llama-13B",
+      "dataset": "triviaqa",
+      "tokens": 5
+    },
+    "musique_prob_llama13b_2.jsonl": {
+      "sha256": "1fc61ea8f3b8f6cc80b2e8b6909352162b785b0808444f8763d8127971175956",
+      "samples": 500,
+      "model": "Llama-13B",
+      "dataset": "musique",
+      "tokens": 5
+    },
+    "truthfulqa_prob_llama13b_2.jsonl": {
+      "sha256": "7965f73c857cdd025020547c5f90fce96ff0597efb25c1efef554ef0846155be",
+      "samples": 500,
+      "model": "Llama-13B",
+      "dataset": "truthfulqa",
+      "tokens": 5
+    }
+  }
+}

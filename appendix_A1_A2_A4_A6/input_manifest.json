@@ -1,0 +1,29 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "common_claim_prob_llama13b.jsonl": {"bytes": 10136423, "sha256": "f1106cf9122d4f4059b70bd3e61b562c55d5eb881f1e2b68791c58b8e57d301f"},
+    "common_claim_prob_mistral.jsonl": {"bytes": 7669293, "sha256": "739864913c342258516175ef0032a8f2909db3d4d0d0c52b99ce55ca49196e3c"},
+    "common_claim_prob_qwen.jsonl": {"bytes": 8478520, "sha256": "80979ba228a63a66cacc15988f8b1c730b883aedcf7cda5cc56e408abfb41bd3"},
+    "common_claim_prob_qwen14b.jsonl": {"bytes": 8477762, "sha256": "95188b6da38403a69866169cc17de1f17b000bd0ec8eb600afe1f7bd00e098a7"},
+    "common_claim_prob.jsonl": {"bytes": 7442541, "sha256": "ee7d4870a7020d490cbe03d9dc9d67a47ee6f6f412dd862716ae6c69545c6a3d"},
+    "company_prob_llama13b.jsonl": {"bytes": 9324181, "sha256": "77b432266ba9d98bddd25b676f6db8ff64e2a474452eef63ebc63575949b5f13"},
+    "company_prob_mistral.jsonl": {"bytes": 7212349, "sha256": "5ed22a42f5eb3fbf3d8955621f09acff673355e57f44afc57356c3787e2f3f46"},
+    "company_prob_qwen.jsonl": {"bytes": 7913351, "sha256": "15e75316700c95ce5c5600adfb8e6a92eefb54c6288099edeaa07857d688d4ac"},
+    "company_prob_qwen14b.jsonl": {"bytes": 7913272, "sha256": "f475d68317dc0ec22c99bdfafc9c8031bb4967d5570e88dace0ac3c2790cafc5"},
+    "company_prob.jsonl": {"bytes": 7004774, "sha256": "fa52eec8555d651cb5f72622303b82755d8966ca0b0e11c84545935abc21d0a2"},
+    "counterfact_prob_llama13b.jsonl": {"bytes": 7589918, "sha256": "9f0c4bd4f8459694261502c730e347f1d97c2baf0a82c3e55ccfed854cd61d86"},
+    "counterfact_prob_mistral.jsonl": {"bytes": 6430874, "sha256": "8e6f88572de93088da077e2b18bd0b45748a882829c9e683718eb4184eb60f85"},
+    "counterfact_prob_qwen.jsonl": {"bytes": 6737884, "sha256": "9e39cded2862d8f22e1995bfaf5b8e97b002a7cd6bdadf9084b5d5cd903813ef"},
+    "counterfact_prob_qwen14b.jsonl": {"bytes": 6737754, "sha256": "627d4b9b0d057bfd53ccf6eee4f28dc0ec6ba60c27c84508b774ec81852c2cdb"},
+    "counterfact_prob.jsonl": {"bytes": 6052090, "sha256": "9c7c17dc8c2ff169313eb58c8de7ca6bf2904af88a48e1fdda7ff602b6429346"},
+    "musique_prob_llama13b_2.jsonl": {"bytes": 13211583, "sha256": "1fc61ea8f3b8f6cc80b2e8b6909352162b785b0808444f8763d8127971175956"},
+    "musique_prob_mistral_2.jsonl": {"bytes": 10253340, "sha256": "9bb912f74b849cf457da0678150dbb21bbec4919c6f98359b0f12e998cd9d4af"},
+    "musique_prob.jsonl": {"bytes": 9882877, "sha256": "9b981e5f6d136272dd4fc3bdc10caa55160c3f1725e7a0e51db9b8efa3dde763"},
+    "triviaqa_prob_llama13b_2.jsonl": {"bytes": 12001026, "sha256": "e571c6ae89beebd0dbdda0e759ae25db31741b0ef131e97e373b07f2c462541a"},
+    "triviaqa_prob_mistral_2.jsonl": {"bytes": 9876311, "sha256": "9ac92046137ffdd8f09206743edee4b3f2fef41b31e5a4550069659a4e33b8da"},
+    "triviaqa_prob.jsonl": {"bytes": 9183938, "sha256": "b99be2195e0d5ea73580b28af049c6d486f2bf3ccbfe0c2f9d683957934bee4e"},
+    "truthfulqa_prob_llama13b_2.jsonl": {"bytes": 13663547, "sha256": "7965f73c857cdd025020547c5f90fce96ff0597efb25c1efef554ef0846155be"},
+    "truthfulqa_prob_mistral_2.jsonl": {"bytes": 10556382, "sha256": "cabaf4f9f1699374b37122b1e427464a086906bdcc255a5a0a2a90280ae707e0"},
+    "truthfulqa_prob.jsonl": {"bytes": 10236926, "sha256": "2965bc1d2ef07eab6541ea613f01f862856bd3832685a5e2a9379852070784a0"}
+  }
+}

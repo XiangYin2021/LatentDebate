@@ -1,0 +1,28 @@
+{
+  "layers": 31,
+  "table3_consistency_tokens": 6,
+  "table3_auroc_tokens": 5,
+  "table3_feature_indices": [4, 5, 6, 7, 8, 9, 10, 11, 13, 14],
+  "table3_feature_description": "middle and upper AvgInit/VarInit/AvgFin/VarFin/NumAtk (10 total)",
+  "table4_tokens": 6,
+  "temperature": 0.05,
+  "seeds": [42, 43, 44],
+  "train_rows": [250, 500],
+  "test_rows": [0, 250],
+  "target": "shared Logit-Lens-cache LLM answer error against factual label",
+  "xgboost": {
+    "objective": "binary:logistic",
+    "n_estimators": 100,
+    "max_depth": 2,
+    "learning_rate": 0.03,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "min_child_weight": 1,
+    "reg_lambda": 1,
+    "reg_alpha": 0,
+    "eval_metric": "logloss",
+    "tree_method": "hist",
+    "device": "cpu",
+    "n_jobs": 2
+  }
+}

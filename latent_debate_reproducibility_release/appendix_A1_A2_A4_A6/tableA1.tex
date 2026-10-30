@@ -1,0 +1,32 @@
+\begin{table}[tp]
+    \centering
+    \tiny
+    \setlength{\tabcolsep}{1.1mm}{
+        \begin{threeparttable}
+            \begin{tabular}{lccccccc}
+                \toprule
+                & \textbf{\underline{\texttt{common\_claim}}} & \textbf{\underline{\texttt{counterfact}}} & \textbf{\underline{\texttt{company}}} & \textbf{\underline{\texttt{TriviaQA}}} & \textbf{\underline{\texttt{MuSiQue}}} & \textbf{\underline{\texttt{TruthfulQA}}} & \textbf{\underline{\texttt{Avg}}}\\
+                &500&500&500&500&500&500\\
+                \midrule
+                \multicolumn{8}{c}{\textit{Llama-8B (\%)}}\\
+                \midrule
+                Top Right Argument &92.4&84.2&85.6&88.2&80.6&91.2&87.03\\
+                \rowcolor{gray!10}Latent Debate &92.4&78.2&89.2&74.0&77.0&90.6&83.57\\
+                \midrule
+                \multicolumn{8}{c}{\textit{Mistral-7B (\%)}}\\
+                \midrule
+                Top Right Argument &96.2&95.8&99.8&98.6&96.8&95.8&97.17\\
+                \rowcolor{gray!10}Latent Debate &90.0&91.0&97.8&95.4&91.2&89.2&92.43\\
+                \midrule
+                \multicolumn{8}{c}{\textit{Llama-13B (\%)}}\\
+                \midrule
+                Top Right Argument &97.4&91.8&98.6&97.0&93.2&94.6&95.43\\
+                \rowcolor{gray!10}Latent Debate &98.4&95.2&99.6&96.2&93.6&96.8&96.63\\
+                \bottomrule
+            \end{tabular}
+            \caption{Consistency scores. Each entry shows the proportion of consistent predictions out of 500.}
+            \label{tab:single_arg}
+        \end{threeparttable}
+    }
+\end{table}
+

@@ -1,0 +1,19 @@
+\begin{table}[t]
+    \centering
+    \tiny
+    \setlength{\tabcolsep}{3mm}
+    \begin{tabular}{lcccc}
+        \toprule
+        \textbf{Method} & \textbf{Common Claim} & \textbf{CounterFact} & \textbf{Company} & \textbf{Avg}\\
+        \midrule
+        SAPLMA-L1 &0.79&0.66&0.88&0.78\\
+        SAPLMA-L2 &0.80&0.67&0.89&0.79\\
+        SAPLMA-L3 &0.80&0.68&0.87&0.78\\
+        SAPLMA-L4 &0.79&0.69&0.91&0.80\\
+        \rowcolor{gray!10}Latent Debate Detector &\textbf{0.84}&\textbf{0.83}&\textbf{0.93}&\textbf{0.87}\\
+        \bottomrule
+    \end{tabular}
+    \caption{Hallucination detection AUROC using early-layer SAPLMA representations. L0 denotes the embedding output and is excluded.}
+    \label{tab:early_layer_saplma}
+\end{table}
+

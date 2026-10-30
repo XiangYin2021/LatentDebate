@@ -1,0 +1,13 @@
+{
+  "model": "meta-llama/Llama-3.1-8B-Instruct",
+  "datasets": ["common_claim", "counterfact", "company"],
+  "transformer_layers": [1, 2, 3, 4],
+  "hidden_state_zero": "embedding output; excluded",
+  "train_rows": [250, 500],
+  "test_rows": [0, 250],
+  "seeds": [41, 42, 43],
+  "architecture": [4096, 256, 128, 64, 1],
+  "epochs": 5,
+  "batch_size": 32,
+  "learning_rate": 0.001
+}

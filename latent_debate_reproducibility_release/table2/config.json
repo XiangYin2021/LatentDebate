@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "description": "Validated downstream reproduction of the CPU/cache rows in Table 2",
+  "datasets": ["common_claim", "counterfact", "company", "triviaqa", "musique", "truthfulqa"],
+  "samples_per_dataset": 500,
+  "train_rows": [250, 500],
+  "test_rows": [0, 250],
+  "layers": 31,
+  "token_temperature": 0.05,
+  "first_five_tokens": {"common_claim": 6, "counterfact": 6, "company": 6, "triviaqa": 5, "musique": 5, "truthfulqa": 5},
+  "first_five_feature_columns": {
+    "AvgInit": [0, 4, 8],
+    "AvgFin": [2, 6, 10],
+    "VarInit": [1, 5, 9],
+    "VarFin": [3, 7, 11],
+    "NumAtk": [12, 13, 14]
+  },
+  "latent_debate_detector": {
+    "tokens": 5,
+    "feature_columns": [4, 5, 6, 7, 8, 9, 10, 11, 13, 14],
+    "source": "structural_pattern_features_new.py",
+    "seeds": [42, 43, 44]
+  },
+  "saplma": {
+    "seeds": [41, 42, 43],
+    "architecture": [4096, 256, 128, 64, 1],
+    "epochs": 5,
+    "batch_size": 32,
+    "learning_rate": 0.001
+  },
+  "layer_regions": [[0, 10], [10, 20], [20, 31]],
+  "classifier": {
+    "objective": "binary:logistic",
+    "n_estimators": 100,
+    "max_depth": 2,
+    "learning_rate": 0.03,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "min_child_weight": 1,
+    "reg_lambda": 1,
+    "reg_alpha": 0,
+    "eval_metric": "logloss",
+    "tree_method": "hist",
+    "device": "cpu",
+    "n_jobs": 2
+  },
+  "summary_standard_deviation_ddof": 1,
+  "code_only_rows": ["SelfCheckGPT", "Semantic Entropy"]
+}

@@ -1,0 +1,972 @@
+{
+  "protocol_version": "table1-finalized-2026-10-29",
+  "protocol_sha256": "d4bf9498e40d43ae46190459cb3c94d0100954646a58ecfc936d3bc1601524b9",
+  "cells": [
+    {
+      "model": "Llama-8B",
+      "dataset": "common_claim",
+      "method": "Random",
+      "n": 500,
+      "consistent": 384
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "common_claim",
+      "method": "Average",
+      "n": 500,
+      "consistent": 461
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "common_claim",
+      "method": "Majority Voting",
+      "n": 500,
+      "consistent": 462
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "common_claim",
+      "method": "Latent Debate",
+      "n": 500,
+      "consistent": 462
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "common_claim",
+      "method": "Latent Debate -- w/o token weight",
+      "n": 500,
+      "consistent": 461
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "common_claim",
+      "method": "Latent Debate -- with quadratic connection",
+      "n": 500,
+      "consistent": 459
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "counterfact",
+      "method": "Random",
+      "n": 500,
+      "consistent": 321
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "counterfact",
+      "method": "Average",
+      "n": 500,
+      "consistent": 337
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "counterfact",
+      "method": "Majority Voting",
+      "n": 500,
+      "consistent": 335
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "counterfact",
+      "method": "Latent Debate",
+      "n": 500,
+      "consistent": 391
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "counterfact",
+      "method": "Latent Debate -- w/o token weight",
+      "n": 500,
+      "consistent": 341
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "counterfact",
+      "method": "Latent Debate -- with quadratic connection",
+      "n": 500,
+      "consistent": 320
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "company",
+      "method": "Random",
+      "n": 500,
+      "consistent": 337
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "company",
+      "method": "Average",
+      "n": 500,
+      "consistent": 402
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "company",
+      "method": "Majority Voting",
+      "n": 500,
+      "consistent": 402
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "company",
+      "method": "Latent Debate",
+      "n": 500,
+      "consistent": 446
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "company",
+      "method": "Latent Debate -- w/o token weight",
+      "n": 500,
+      "consistent": 401
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "company",
+      "method": "Latent Debate -- with quadratic connection",
+      "n": 500,
+      "consistent": 400
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "triviaqa",
+      "method": "Random",
+      "n": 500,
+      "consistent": 332
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "triviaqa",
+      "method": "Average",
+      "n": 500,
+      "consistent": 365
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "triviaqa",
+      "method": "Majority Voting",
+      "n": 500,
+      "consistent": 365
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "triviaqa",
+      "method": "Latent Debate",
+      "n": 500,
+      "consistent": 370
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "triviaqa",
+      "method": "Latent Debate -- w/o token weight",
+      "n": 500,
+      "consistent": 365
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "triviaqa",
+      "method": "Latent Debate -- with quadratic connection",
+      "n": 500,
+      "consistent": 366
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "musique",
+      "method": "Random",
+      "n": 500,
+      "consistent": 344
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "musique",
+      "method": "Average",
+      "n": 500,
+      "consistent": 385
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "musique",
+      "method": "Majority Voting",
+      "n": 500,
+      "consistent": 385
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "musique",
+      "method": "Latent Debate",
+      "n": 500,
+      "consistent": 385
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "musique",
+      "method": "Latent Debate -- w/o token weight",
+      "n": 500,
+      "consistent": 385
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "musique",
+      "method": "Latent Debate -- with quadratic connection",
+      "n": 500,
+      "consistent": 385
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "truthfulqa",
+      "method": "Random",
+      "n": 500,
+      "consistent": 396
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "truthfulqa",
+      "method": "Average",
+      "n": 500,
+      "consistent": 451
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "truthfulqa",
+      "method": "Majority Voting",
+      "n": 500,
+      "consistent": 451
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "truthfulqa",
+      "method": "Latent Debate",
+      "n": 500,
+      "consistent": 453
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "truthfulqa",
+      "method": "Latent Debate -- w/o token weight",
+      "n": 500,
+      "consistent": 451
+    },
+    {
+      "model": "Llama-8B",
+      "dataset": "truthfulqa",
+      "method": "Latent Debate -- with quadratic connection",
+      "n": 500,
+      "consistent": 451
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "common_claim",
+      "method": "Random",
+      "n": 500,
+      "consistent": 320
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "common_claim",
+      "method": "Average",
+      "n": 500,
+      "consistent": 434
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "common_claim",
+      "method": "Majority Voting",
+      "n": 500,
+      "consistent": 449
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "common_claim",
+      "method": "Latent Debate",
+      "n": 500,
+      "consistent": 450
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "common_claim",
+      "method": "Latent Debate -- w/o token weight",
+      "n": 500,
+      "consistent": 435
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "common_claim",
+      "method": "Latent Debate -- with quadratic connection",
+      "n": 500,
+      "consistent": 406
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "counterfact",
+      "method": "Random",
+      "n": 500,
+      "consistent": 327
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "counterfact",
+      "method": "Average",
+      "n": 500,
+      "consistent": 445
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "counterfact",
+      "method": "Majority Voting",
+      "n": 500,
+      "consistent": 453
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "counterfact",
+      "method": "Latent Debate",
+      "n": 500,
+      "consistent": 455
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "counterfact",
+      "method": "Latent Debate -- w/o token weight",
+      "n": 500,
+      "consistent": 445
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "counterfact",
+      "method": "Latent Debate -- with quadratic connection",
+      "n": 500,
+      "consistent": 384
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "company",
+      "method": "Random",
+      "n": 500,
+      "consistent": 370
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "company",
+      "method": "Average",
+      "n": 500,
+      "consistent": 494
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "company",
+      "method": "Majority Voting",
+      "n": 500,
+      "consistent": 493
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "company",
+      "method": "Latent Debate",
+      "n": 500,
+      "consistent": 489
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "company",
+      "method": "Latent Debate -- w/o token weight",
+      "n": 500,
+      "consistent": 494
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "company",
+      "method": "Latent Debate -- with quadratic connection",
+      "n": 500,
+      "consistent": 458
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "triviaqa",
+      "method": "Random",
+      "n": 500,
+      "consistent": 375
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "triviaqa",
+      "method": "Average",
+      "n": 500,
+      "consistent": 478
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "triviaqa",
+      "method": "Majority Voting",
+      "n": 500,
+      "consistent": 480
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "triviaqa",
+      "method": "Latent Debate",
+      "n": 500,
+      "consistent": 477
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "triviaqa",
+      "method": "Latent Debate -- w/o token weight",
+      "n": 500,
+      "consistent": 478
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "triviaqa",
+      "method": "Latent Debate -- with quadratic connection",
+      "n": 500,
+      "consistent": 475
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "musique",
+      "method": "Random",
+      "n": 500,
+      "consistent": 379
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "musique",
+      "method": "Average",
+      "n": 500,
+      "consistent": 451
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "musique",
+      "method": "Majority Voting",
+      "n": 500,
+      "consistent": 458
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "musique",
+      "method": "Latent Debate",
+      "n": 500,
+      "consistent": 456
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "musique",
+      "method": "Latent Debate -- w/o token weight",
+      "n": 500,
+      "consistent": 451
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "musique",
+      "method": "Latent Debate -- with quadratic connection",
+      "n": 500,
+      "consistent": 451
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "truthfulqa",
+      "method": "Random",
+      "n": 500,
+      "consistent": 352
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "truthfulqa",
+      "method": "Average",
+      "n": 500,
+      "consistent": 421
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "truthfulqa",
+      "method": "Majority Voting",
+      "n": 500,
+      "consistent": 435
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "truthfulqa",
+      "method": "Latent Debate",
+      "n": 500,
+      "consistent": 446
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "truthfulqa",
+      "method": "Latent Debate -- w/o token weight",
+      "n": 500,
+      "consistent": 420
+    },
+    {
+      "model": "Mistral-7B",
+      "dataset": "truthfulqa",
+      "method": "Latent Debate -- with quadratic connection",
+      "n": 500,
+      "consistent": 388
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "common_claim",
+      "method": "Random",
+      "n": 500,
+      "consistent": 326
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "common_claim",
+      "method": "Average",
+      "n": 500,
+      "consistent": 450
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "common_claim",
+      "method": "Majority Voting",
+      "n": 500,
+      "consistent": 427
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "common_claim",
+      "method": "Latent Debate",
+      "n": 500,
+      "consistent": 492
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "common_claim",
+      "method": "Latent Debate -- w/o token weight",
+      "n": 500,
+      "consistent": 478
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "common_claim",
+      "method": "Latent Debate -- with quadratic connection",
+      "n": 500,
+      "consistent": 401
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "counterfact",
+      "method": "Random",
+      "n": 500,
+      "consistent": 325
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "counterfact",
+      "method": "Average",
+      "n": 500,
+      "consistent": 450
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "counterfact",
+      "method": "Majority Voting",
+      "n": 500,
+      "consistent": 440
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "counterfact",
+      "method": "Latent Debate",
+      "n": 500,
+      "consistent": 476
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "counterfact",
+      "method": "Latent Debate -- w/o token weight",
+      "n": 500,
+      "consistent": 456
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "counterfact",
+      "method": "Latent Debate -- with quadratic connection",
+      "n": 500,
+      "consistent": 330
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "company",
+      "method": "Random",
+      "n": 500,
+      "consistent": 394
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "company",
+      "method": "Average",
+      "n": 500,
+      "consistent": 494
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "company",
+      "method": "Majority Voting",
+      "n": 500,
+      "consistent": 491
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "company",
+      "method": "Latent Debate",
+      "n": 500,
+      "consistent": 498
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "company",
+      "method": "Latent Debate -- w/o token weight",
+      "n": 500,
+      "consistent": 493
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "company",
+      "method": "Latent Debate -- with quadratic connection",
+      "n": 500,
+      "consistent": 299
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "triviaqa",
+      "method": "Random",
+      "n": 500,
+      "consistent": 334
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "triviaqa",
+      "method": "Average",
+      "n": 500,
+      "consistent": 431
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "triviaqa",
+      "method": "Majority Voting",
+      "n": 500,
+      "consistent": 421
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "triviaqa",
+      "method": "Latent Debate",
+      "n": 500,
+      "consistent": 481
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "triviaqa",
+      "method": "Latent Debate -- w/o token weight",
+      "n": 500,
+      "consistent": 488
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "triviaqa",
+      "method": "Latent Debate -- with quadratic connection",
+      "n": 500,
+      "consistent": 476
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "musique",
+      "method": "Random",
+      "n": 500,
+      "consistent": 312
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "musique",
+      "method": "Average",
+      "n": 500,
+      "consistent": 427
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "musique",
+      "method": "Majority Voting",
+      "n": 500,
+      "consistent": 422
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "musique",
+      "method": "Latent Debate",
+      "n": 500,
+      "consistent": 468
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "musique",
+      "method": "Latent Debate -- w/o token weight",
+      "n": 500,
+      "consistent": 466
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "musique",
+      "method": "Latent Debate -- with quadratic connection",
+      "n": 500,
+      "consistent": 465
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "truthfulqa",
+      "method": "Random",
+      "n": 500,
+      "consistent": 344
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "truthfulqa",
+      "method": "Average",
+      "n": 500,
+      "consistent": 448
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "truthfulqa",
+      "method": "Majority Voting",
+      "n": 500,
+      "consistent": 435
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "truthfulqa",
+      "method": "Latent Debate",
+      "n": 500,
+      "consistent": 484
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "truthfulqa",
+      "method": "Latent Debate -- w/o token weight",
+      "n": 500,
+      "consistent": 468
+    },
+    {
+      "model": "Llama-13B",
+      "dataset": "truthfulqa",
+      "method": "Latent Debate -- with quadratic connection",
+      "n": 500,
+      "consistent": 417
+    }
+  ],
+  "table_display": [
+    {
+      "model": "Llama-8B",
+      "method": "Random",
+      "common_claim": "76.8",
+      "counterfact": "64.2",
+      "company": "67.4",
+      "triviaqa": "66.4",
+      "musique": "68.8",
+      "truthfulqa": "79.2",
+      "Avg": "70.5"
+    },
+    {
+      "model": "Llama-8B",
+      "method": "Average",
+      "common_claim": "92.2",
+      "counterfact": "67.4",
+      "company": "80.4",
+      "triviaqa": "73.0",
+      "musique": "77.0",
+      "truthfulqa": "90.2",
+      "Avg": "80.0"
+    },
+    {
+      "model": "Llama-8B",
+      "method": "Majority Voting",
+      "common_claim": "92.4",
+      "counterfact": "67.0",
+      "company": "80.4",
+      "triviaqa": "73.0",
+      "musique": "77.0",
+      "truthfulqa": "90.2",
+      "Avg": "80.0"
+    },
+    {
+      "model": "Llama-8B",
+      "method": "Latent Debate",
+      "common_claim": "92.4",
+      "counterfact": "78.2",
+      "company": "89.2",
+      "triviaqa": "74.0",
+      "musique": "77.0",
+      "truthfulqa": "90.6",
+      "Avg": "83.6"
+    },
+    {
+      "model": "Llama-8B",
+      "method": "Latent Debate -- w/o token weight",
+      "common_claim": "92.2",
+      "counterfact": "68.2",
+      "company": "80.2",
+      "triviaqa": "73.0",
+      "musique": "77.0",
+      "truthfulqa": "90.2",
+      "Avg": "80.1"
+    },
+    {
+      "model": "Llama-8B",
+      "method": "Latent Debate -- with quadratic connection",
+      "common_claim": "91.8",
+      "counterfact": "64.0",
+      "company": "80.0",
+      "triviaqa": "73.2",
+      "musique": "77.0",
+      "truthfulqa": "90.2",
+      "Avg": "79.4"
+    },
+    {
+      "model": "Mistral-7B",
+      "method": "Random",
+      "common_claim": "64.0",
+      "counterfact": "65.4",
+      "company": "74.0",
+      "triviaqa": "75.0",
+      "musique": "75.8",
+      "truthfulqa": "70.4",
+      "Avg": "70.8"
+    },
+    {
+      "model": "Mistral-7B",
+      "method": "Average",
+      "common_claim": "86.8",
+      "counterfact": "89.0",
+      "company": "98.8",
+      "triviaqa": "95.6",
+      "musique": "90.2",
+      "truthfulqa": "84.2",
+      "Avg": "90.8"
+    },
+    {
+      "model": "Mistral-7B",
+      "method": "Majority Voting",
+      "common_claim": "89.8",
+      "counterfact": "90.6",
+      "company": "98.6",
+      "triviaqa": "96.0",
+      "musique": "91.6",
+      "truthfulqa": "87.0",
+      "Avg": "92.3"
+    },
+    {
+      "model": "Mistral-7B",
+      "method": "Latent Debate",
+      "common_claim": "90.0",
+      "counterfact": "91.0",
+      "company": "97.8",
+      "triviaqa": "95.4",
+      "musique": "91.2",
+      "truthfulqa": "89.2",
+      "Avg": "92.4"
+    },
+    {
+      "model": "Mistral-7B",
+      "method": "Latent Debate -- w/o token weight",
+      "common_claim": "87.0",
+      "counterfact": "89.0",
+      "company": "98.8",
+      "triviaqa": "95.6",
+      "musique": "90.2",
+      "truthfulqa": "84.0",
+      "Avg": "90.8"
+    },
+    {
+      "model": "Mistral-7B",
+      "method": "Latent Debate -- with quadratic connection",
+      "common_claim": "81.2",
+      "counterfact": "76.8",
+      "company": "91.6",
+      "triviaqa": "95.0",
+      "musique": "90.2",
+      "truthfulqa": "77.6",
+      "Avg": "85.4"
+    },
+    {
+      "model": "Llama-13B",
+      "method": "Random",
+      "common_claim": "65.2",
+      "counterfact": "65.0",
+      "company": "78.8",
+      "triviaqa": "66.8",
+      "musique": "62.4",
+      "truthfulqa": "68.8",
+      "Avg": "67.8"
+    },
+    {
+      "model": "Llama-13B",
+      "method": "Average",
+      "common_claim": "90.0",
+      "counterfact": "90.0",
+      "company": "98.8",
+      "triviaqa": "86.2",
+      "musique": "85.4",
+      "truthfulqa": "89.6",
+      "Avg": "90.0"
+    },
+    {
+      "model": "Llama-13B",
+      "method": "Majority Voting",
+      "common_claim": "85.4",
+      "counterfact": "88.0",
+      "company": "98.2",
+      "triviaqa": "84.2",
+      "musique": "84.4",
+      "truthfulqa": "87.0",
+      "Avg": "87.9"
+    },
+    {
+      "model": "Llama-13B",
+      "method": "Latent Debate",
+      "common_claim": "98.4",
+      "counterfact": "95.2",
+      "company": "99.6",
+      "triviaqa": "96.2",
+      "musique": "93.6",
+      "truthfulqa": "96.8",
+      "Avg": "96.6"
+    },
+    {
+      "model": "Llama-13B",
+      "method": "Latent Debate -- w/o token weight",
+      "common_claim": "95.6",
+      "counterfact": "91.2",
+      "company": "98.6",
+      "triviaqa": "97.6",
+      "musique": "93.2",
+      "truthfulqa": "93.6",
+      "Avg": "95.0"
+    },
+    {
+      "model": "Llama-13B",
+      "method": "Latent Debate -- with quadratic connection",
+      "common_claim": "80.2",
+      "counterfact": "66.0",
+      "company": "59.8",
+      "triviaqa": "95.2",
+      "musique": "93.0",
+      "truthfulqa": "83.4",
+      "Avg": "79.6"
+    }
+  ],
+  "prediction_columns": [
+    "llm_prediction",
+    "Random",
+    "Average",
+    "Majority Voting",
+    "Latent Debate",
+    "Latent Debate -- w/o token weight",
+    "Latent Debate -- with quadratic connection"
+  ],
+  "scope": "Finalized corrected Table 1, not the old PDF values. References are independent validation inputs."
+}

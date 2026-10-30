@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "description": "CPU downstream reproduction of Tables A1, A2, A4 and A6",
+  "samples_per_dataset": 500,
+  "layers": 31,
+  "token_temperature": 0.05,
+  "test_rows": [0, 250],
+  "train_rows": [250, 500],
+  "model_seeds": [42, 43, 44],
+  "datasets": [
+    {"name": "common_claim", "tokens": 6},
+    {"name": "counterfact", "tokens": 6},
+    {"name": "company", "tokens": 6},
+    {"name": "triviaqa", "tokens": 5},
+    {"name": "musique", "tokens": 5},
+    {"name": "truthfulqa", "tokens": 5}
+  ],
+  "table_a1_models": [
+    {"name": "Llama-8B", "suffix": ""},
+    {"name": "Mistral-7B", "suffix": "_mistral"},
+    {"name": "Llama-13B", "suffix": "_llama13b"}
+  ],
+  "table_a2": {
+    "top_right_score": "negative signed top-right strength on fixed test rows",
+    "layer_regions": [[0, 10], [10, 20], [20, 31]]
+  },
+  "table_a4": {
+    "datasets": ["common_claim", "counterfact", "triviaqa", "truthfulqa"],
+    "removed_layers": [0, 3, 6, 9, 12],
+    "repartition": "three contiguous floor/floor/remainder regions"
+  },
+  "table_a6_models": [
+    {"name": "Llama-8B", "suffix": ""},
+    {"name": "Llama-13B", "suffix": "_llama13b"},
+    {"name": "Qwen-8B", "suffix": "_qwen"},
+    {"name": "Qwen-14B", "suffix": "_qwen14b"}
+  ],
+  "classifier": {
+    "objective": "binary:logistic",
+    "n_estimators": 100,
+    "max_depth": 2,
+    "learning_rate": 0.03,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "min_child_weight": 1,
+    "reg_lambda": 1,
+    "reg_alpha": 0,
+    "eval_metric": "logloss",
+    "tree_method": "hist",
+    "device": "cpu",
+    "n_jobs": 2
+  },
+  "summary_standard_deviation_ddof": 1
+}

@@ -1,0 +1,36 @@
+\begin{table*}[t]
+    \centering
+    \tiny
+    \setlength{\tabcolsep}{2.0mm}{
+        \begin{threeparttable}
+            \begin{tabular}{lccccccc}
+                \toprule
+                \textbf{Method}
+                & \textbf{Common Claim}
+                & \textbf{CounterFact}
+                & \textbf{Company}
+                & \textbf{TriviaQA}
+                & \textbf{MuSiQue}
+                & \textbf{TruthfulQA}
+                & \textbf{Avg} \\
+                \midrule
+                Hallucination Ratio &40.8\%&15.8\%&30.2\%&25.0\%&35.2\%&45.8\%&32.1\%\\
+                \midrule
+                AvgInit &0.75&0.66&0.86&\textbf{0.91}&0.71&0.58&0.74\\
+                AvgFin &0.58&0.54&0.68&0.82&0.62&0.62&0.64\\
+                VarInit &0.82&0.70&0.89&\textbf{0.91}&0.78&0.54&0.77\\
+                VarFin &0.78&0.63&0.78&0.90&0.65&0.50&0.71\\
+                NumAtk &0.55&0.53&0.68&0.65&0.51&0.55&0.58\\
+                SelfCheckGPT &0.60&0.53&0.72&0.65&0.58&0.45&0.59\\
+                Semantic Entropy &$0.72 \pm 0.00$&$0.69 \pm 0.01$&$0.71 \pm 0.01$&$0.77 \pm 0.01$&$0.52 \pm 0.00$&$0.51 \pm 0.01$&0.65\\
+                SAPLMA &$0.82 \pm 0.01$&$0.77 \pm 0.00$&$0.86 \pm 0.00$&$0.90 \pm 0.01$&$\mathbf{0.85 \pm 0.01}$&$\mathbf{0.71 \pm 0.03}$&\textbf{0.82}\\
+                \rowcolor{gray!10}
+                Latent Debate Detector &$\mathbf{0.84 \pm 0.00}$&$\mathbf{0.83 \pm 0.00}$&$\mathbf{0.93 \pm 0.00}$&$\mathbf{0.91 \pm 0.00}$&$0.78 \pm 0.01$&$0.61 \pm 0.00$&\textbf{0.82}\\
+                \bottomrule
+            \end{tabular}
+            \caption{AUROC scores for identified features in isolation, hallucination detection baselines, and Latent Debate Detector. Results are averaged over three random seeds where applicable.}
+            \label{tab:mlp_auc}
+        \end{threeparttable}
+    }
+\end{table*}
+
